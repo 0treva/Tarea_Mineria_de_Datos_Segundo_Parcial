@@ -1,0 +1,22 @@
+{
+  "dataset_rows_after_target_drop": 2928,
+  "experiments": {
+    "linear_regression_70_30": {
+      "rmse": 3.581708639491781,
+      "mae": 2.6913192921586324,
+      "r2": 0.8626343962235593,
+      "train_rows": 2049,
+      "test_rows": 879,
+      "test_size": 0.3
+    },
+    "linear_regression_80_20": {
+      "rmse": 3.4019825371229415,
+      "mae": 2.5786346016344224,
+      "r2": 0.8662015589458644,
+      "train_rows": 2342,
+      "test_rows": 586,
+      "test_size": 0.2
+    }
+  },
+  "best_experiment": "linear_regression_80_20"
+}
